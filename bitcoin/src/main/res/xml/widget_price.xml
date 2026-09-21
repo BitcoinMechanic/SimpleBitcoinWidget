@@ -15,5 +15,5 @@
     android:previewImage="@drawable/preview_price_widget"
     android:widgetFeatures="reconfigurable"
     android:configure="com.brentpanther.bitcoinwidget.ui.MainActivity"
-    android:description="@string/widget_price_name"
+    android:description="@string/xbt_widget_price_name"
     tools:targetApi="s" />

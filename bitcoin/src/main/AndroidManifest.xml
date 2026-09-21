@@ -42,7 +42,7 @@
         <receiver
             android:name=".WidgetProvider"
             android:exported="true"
-            android:label="@string/widget_price_name">
+            android:label="@string/xbt_widget_price_name">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -54,7 +54,7 @@
         <receiver
             android:name=".ValueWidgetProvider"
             android:exported="true"
-            android:label="@string/widget_value_name">
+            android:label="@string/xbt_widget_value_name">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>

@@ -11,7 +11,8 @@ android {
     compileSdk = 37
 
     defaultConfig {
-        applicationId = "com.brentpanther.bitcoinwidget"
+        // Keep this fork installable alongside the upstream Simple Crypto Widget.
+        applicationId = "app.xbtprice.widget"
         minSdk = 23
         targetSdk = 37
         versionCode = 347
